@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+// Primary・Secondaryボタンの共通部分をパーツ化
 export const BaseButton = styled.button`
   color: #fff;
   padding: 6px 24px;
