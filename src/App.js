@@ -1,5 +1,6 @@
 import { PrimaryButton } from "./components/atoms/button/PrimaryButton";
 import { SecondaryButton } from "./components/atoms/button/SecondaryButton";
+import { SearchInput } from "./components/molecules/SearchInput";
 import "./styles.css";
 
 export default function App() {
@@ -8,6 +9,8 @@ export default function App() {
       <h1>Hello CodeSandbox</h1>
       <PrimaryButton>ボタン</PrimaryButton>
       <SecondaryButton>検索</SecondaryButton>
+      <br />
+      <SearchInput />
     </div>
   );
 }
