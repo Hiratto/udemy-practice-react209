@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 
 // Primary・Secondaryボタンの共通部分をパーツ化
